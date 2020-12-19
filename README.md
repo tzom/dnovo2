@@ -45,58 +45,36 @@ Epoch 1/10
 
 
 Epoch 1/10
-2020-12-19 09:24:26.244862: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
-10/10 [==============================] - 1s 76ms/step - loss: 2.7299
+2020-12-19 10:24:20.109013: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+10/10 [==============================] - 1s 77ms/step - loss: 2.7028
 Epoch 2/10
-10/10 [==============================] - 1s 74ms/step - loss: 1.8542
+10/10 [==============================] - 1s 74ms/step - loss: 1.8288
 Epoch 3/10
-10/10 [==============================] - 1s 73ms/step - loss: 1.4939
+10/10 [==============================] - 1s 73ms/step - loss: 1.4833
 Epoch 4/10
-10/10 [==============================] - 1s 69ms/step - loss: 1.2622
+10/10 [==============================] - 1s 73ms/step - loss: 1.2432
 Epoch 5/10
-10/10 [==============================] - 1s 71ms/step - loss: 0.9860
+10/10 [==============================] - 1s 70ms/step - loss: 0.9651
 Epoch 6/10
-10/10 [==============================] - 1s 72ms/step - loss: 0.7406
+10/10 [==============================] - 1s 71ms/step - loss: 0.7222
 Epoch 7/10
-10/10 [==============================] - 1s 73ms/step - loss: 0.5358
+10/10 [==============================] - 0s 48ms/step - loss: 0.5216
 Epoch 8/10
-10/10 [==============================] - 1s 73ms/step - loss: 0.3759
+10/10 [==============================] - 1s 72ms/step - loss: 0.3650
 Epoch 9/10
-10/10 [==============================] - 1s 69ms/step - loss: 0.2596
+10/10 [==============================] - 1s 70ms/step - loss: 0.2511
 Epoch 10/10
-10/10 [==============================] - 1s 59ms/step - loss: 0.1800
-
-['AAAGEEETAAAGSPGRK_______' 'AAALASGCTVEIK___________'
- 'AAAVLRDSTSVPVTAEAK______' 'AADFLFSCDASHPDTLR_______'
- 'AADSSAPEDSEKLVGDTVSYSK__' 'AAGHQADEILVPLDSK________'
- 'AAGLAGSDLITALISPTTR_____' 'AAKEPEAVAVK_____________'
- 'AAKIVTDVLLR_____________' 'AALEQLLK________________'
- 'AAPAPATAASTTSSSSTSLSSSSK' 'AAPLAPLPAP_P____________'
- 'AAPLIVEVFNK_____________' 'AAQSTGAWILTSALR_________'
- 'AASEELLEK_______________' 'AASSSSSSAGGVSGSSVTGSGFSV'
- 'AAVEFNK_________________' 'AAVLQELATHLHPAEPEEGDSNVA'
- 'AAVPLPPR________________' 'ACDGNVDHAATHITNR________'
- 'ACIDSNEDGDLSK___________' 'ACLEEHIR________________'
- 'ACQLPSEWRPLS_GCR________' 'ADDDYKDYGVNCDK__________'
- 'ADEAALALQPGGSPSAAGADR___' 'ADLEWLR_________________'
- 'ADLIKQDFYYFPSVSK________' 'ADLNKPLYIDTK____________'
- 'ADLVISHAGAGSCLETLEK_____' 'ADVLSSFLDEK_____________'
- 'AEALAAVDIVSHGKNHPFK_____' 'AEGATAPIK_______________'
- 'AEIQDQHDEYIR____________' 'AENYDIPSADR_____________'
- 'AEPLSCALDDSSDSQDPTKEIR__' 'AEQVLLEQLDEDGGCRR_______'
- 'AERPEDLNLPNAVITR________' 'AESVEREIQYVK____________'
- 'AETRCEPFTMK_____________' 'AEVRPRSALGSSR___________'
- 'AFASATNYK_______________' 'AFEEAYARADK_____________'
- 'AFGLLDARVTWALR__________' 'AFIQMSNLVR______________'
- 'AFIWPSTLTKHK____________' 'AFIWSSVLTRHK____________'
- 'AFLLSLAALR______________' 'AFLSPPTLLEGPL___________'
- 'AFNRSTDLTTHK____________' 'AFRFSASPGCGRPSSNK_______'
- 'AFRQSATLNK______________' 'AFRSSNYIR_______________'
- 'AFSLASSLR_______________' 'AFSQRSGLFQHQR___________'
- 'AFTFSSTLNTHK____________' 'AFTQYSGLSMHVRSHSGDK_____'
- 'AFYCSSNLIQNNIVHAEEKHYK__' 'AGAAGTAEATAR____________'
- 'AGDNILAVLK______________' 'AGFLSLPK________________'
- 'AGGALCHILGAAYK__________' 'AGGLLVIDHR______________'
- 'AGIMPFLK________________' 'AGLHPPDSQASGQGVPLISVTTLR']
+10/10 [==============================] - 1s 73ms/step - loss: 0.1735
+predicted peptide / true peptide
+[['AAAGEEETAAAGSPGRK_______' 'AAAGEEETAAAGSPGRK_______']
+ ['AAALASGCTVEIK___________' 'AAALASGCTVEIK___________']
+ ['AAAVLRDSTSVPVTAEAK______' 'AAAVLRDSTSVPVTAEAK______']
+ ['AADFLFSCDASHPDTLR_______' 'AADFLFSCDASHPDTLR_______']
+ ['AADSSAPEDSEKLVGDTVSYSK__' 'AADSSAPEDSEKLVGDTVSYSK__']
+ ['AAGHQADEILVPLDSK________' 'AAGHQADEILVPLDSK________']
+ ['AAGLAGSDLITALISPTTR_____' 'AAGLAGSDLITALISPTTR_____']
+ ['AAKEPEAVAVK_____________' 'AAKEPEAVAVK_____________']
+ ['AAKIVTDVLLR_____________' 'AAKIVTDVLLR_____________']
+ ['AALEQLLK________________' 'AALEQLLK________________']]
 
 ```

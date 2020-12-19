@@ -95,10 +95,18 @@ if __name__ == "__main__":
 
     y = model.predict(ds,steps=1)
 
-    def decode(indices,aa=aa_with_pad):
-        indices = np.argmax(indices,axis=-1)
+    def decode(indices,aa=aa_with_pad,predicted=True):
+        if predicted:
+            indices = np.argmax(indices,axis=-1)
         sequence = np.apply_along_axis(lambda x: aa[x],axis=-1,arr=indices)
         sequence = np.apply_along_axis(lambda x: ''.join(x),axis=-1,arr=sequence)
         return sequence
    
-    print(decode(y))
+    ground_truth = np.array([x[1] for x in ds.take(1)])
+    ground_truth = decode(ground_truth,predicted=False)
+    ground_truth = list(ground_truth[0])
+
+    y = list(decode(y))
+
+    print("predicted peptide / true peptide")
+    print(np.array(list(zip(y,ground_truth))[:10]))

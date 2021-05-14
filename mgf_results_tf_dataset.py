@@ -37,7 +37,10 @@ def trim_peaks_list(mz,intensities,MAX_N_PEAKS=MAX_N_PEAKS,pad=True):
         return mz,intensities
     else:
         indices = np.argsort(intensities)[-MAX_N_PEAKS:][::-1] # take only highest=MAX_N_PEAKS peaks
-        return mz[indices],intensities[indices]
+        # use boolean mask to keep order according to original mz-sorting:
+        mask = np.zeros_like(intensities).astype(bool)
+        mask[indices] = True
+        return mz[mask], intensities[mask]
 
 def get_features(entry):
     sequence = entry['params']['seq']
